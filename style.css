@@ -1,0 +1,41 @@
+:root{
+    font-family: 'Poppins', 'Roboto', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    min-width: 100%;
+}
+header > p{
+    font-size: 3rem;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+    gap: 1.5rem;
+}
+.game-board{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 5px;
+    background-color: black;
+}
+.board-item{
+    background-color: white;
+    text-align: center;
+    padding: 25% 0;
+    font-size: 5rem;
+}
